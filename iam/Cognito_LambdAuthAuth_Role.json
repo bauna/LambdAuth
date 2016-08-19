@@ -17,6 +17,7 @@
                 "lambda:InvokeFunction"
             ],
             "Resource": [
+                "arn:aws:lambda:<REGION>:<AWS_ACCOUNT_ID>:function:LambdAuthGetContacts",
                 "arn:aws:lambda:<REGION>:<AWS_ACCOUNT_ID>:function:LambdAuthCreateUser",
                 "arn:aws:lambda:<REGION>:<AWS_ACCOUNT_ID>:function:LambdAuthVerifyUser",
                 "arn:aws:lambda:<REGION>:<AWS_ACCOUNT_ID>:function:LambdAuthChangePassword",
